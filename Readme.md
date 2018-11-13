@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Альберт Акопян](https://up.htmlacademy.ru/htmlcss/23/user/922473).
-* Наставник: [Александр Карташов](https://htmlacademy.ru/profile/id77080)
+* Наставник: [Александр Карташов] (https://htmlacademy.ru/profile/id77080)
 
 ---
 
