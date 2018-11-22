@@ -1,43 +1,50 @@
-# Личный проект «Седона»
+<!DOCTYPE html>
+<html lang="ru">
 
-* Студент: [Альберт Акопян](https://up.htmlacademy.ru/htmlcss/23/user/922473).
-* Наставник: [Александр Карташов](https://htmlacademy.ru/profile/id77080)
-
----
-
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
-
----
-
-### Памятка
-
-#### 1. Зарегистрируйтесь на Гитхабе
-
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
-
-#### 2. Создайте форк
-
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/922473-sedona) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037949-67a635d6-7bae-11e7-9f2f-1a48fde231b9.jpg">
-
-Получится вот так:
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037953-6a8a7384-7bae-11e7-83ac-59603b1d696c.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037955-6c20c16c-7bae-11e7-9e1a-c52010042976.jpg">
-
-Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS, уровень 1](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Academy: Седона</title>
+    </head>
+    <body>
+      <header class="main-header">
+      <nav class="site-navigation">
+       <ul class="site-navigation">
+         <li><a href="info.html">Информация</a></li>
+         <li><a href="photo-video.html">Фото и Видео</a></li>
+         <li><a href="map.html">Карта штата</a></li>
+         <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header> 
+    
+    
+  <main class="container">
+    
+    <div></div>
+    
+    <b> Седона-небольшой городок в Аризоне,заслуживающий большего</b>
+    <h3>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон</h3>
+    
+    <b>Заинтересовались?</b>
+        <p> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        
+     </main>
+     
+    <p>#VISITSEDONA</p>
+<footer class="main-footer">    
+        
+     <div class="footer-social">
+       <ul>
+          <li><a class="social-button" href="#">Твиттер</a></li>
+          <li><a class="social-button" href="#">Фэйсбук</a></li>
+          <li><a class="social-button" href="#">Ютуб</a></li>
+       </ul> 
+     </div>    
+     <p class="footer-copyright">
+        <b>Website by</b>
+        <a class="button" href="https://htmacademy.ru">HTML Academy</a>
+     </p>  
+     </footer>
+        
+ </body>
+</html>      
