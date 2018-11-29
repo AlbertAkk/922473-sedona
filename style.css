@@ -1,0 +1,209 @@
+body {
+  margin:0;
+  padding:0;
+ 
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+ 
+  background-color: #ffffff;
+  background-image: url("");
+  background-position: top-center;
+  background-repeat:no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  
+  text-align: center;
+  color: #000000;
+  vertical-align: middle;
+  text-transform: uppercase;
+  
+  background-color: #766357;
+  border: none;
+}
+
+.navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+ 
+  background-color: #ffffff;
+}
+
+.navigation-list {
+  list-style:none;
+} 
+
+.navigation-list a {
+  color: #000000;
+}  
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+  background-color: #81b3d2;
+}  
+
+.navigation-list a:active {
+  background-color: #b7b7b7;
+}  
+
+.features-title {
+  text-align: center;
+}
+
+.features-title {
+  font-size: 21px;
+  line-height: 26px;
+  background-color: #ffffff;
+}
+
+.features-description {
+  text-align: center;
+}
+
+.features-description {
+  font-size: 14px;
+  line-height: 26px;
+  background-color: #ffffff;
+}
+
+.search-interested {
+  text-align: center;
+}
+
+.search-interested {
+  font-size: 21px;
+  line-height: 26px;
+  background-color: #ffffff;  
+}  
+
+.search-point {
+  text-align: center;
+}
+
+.search-point {
+  font-size: 14px;
+  line-height: 26px;
+  background-color: #ffffff;  
+}  
+
+.search-hotel {
+  text-align: center;
+}
+
+.search-hotel .button {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.search-hotel .button: hover
+.search-hotel .button: focus {
+  color: #ffffff;
+  background-color: #604e43;
+}
+
+.search-hotel .button: active {
+  color: #ffffff;
+  background-color: #503e33;
+}
+  
+.search-date-arrive, .search-date-departure, .search-grownups, .search-children {
+  text-align: center;
+}
+
+.search-date-arrive, .search-date-departure, .search-grownups, .search-children {
+  font-size: 14px;
+  line-height: 26px;
+  background-color: #ffffff;
+}
+
+.search-item-find {
+  text-align: center;
+}  
+
+.search-item-find .button {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.search-item-find .button hover
+.search-item-find .button focus {
+  color: #ffffff;
+  background-color: #669ec0;
+}
+
+.search-hotel .button: active {
+  color: #ffffff;
+  background-color: #5496bd;
+}
+
+
+.main-footer {
+  color: #000000;
+  
+  background-color: #f9fbf6;
+  background-image: img(" ");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-tagline {
+  text-align: center;
+}
+
+.footer-tagline {
+  font-size: 21px;
+  line-height: 26px;
+  background-color: #f9fbf6;
+}
+
+.social {
+  text-align: center;
+}
+.social ul {
+  list-style: none;
+}
+
+.social-item {
+  color: #81b3d2;
+}
+
+.social-item .button: hover,
+.social-item .button: focus {
+  color: #669ec0;
+  background-color: #f9fbf6;
+}
+
+.social-item .button: active {
+  color: #669ec0;
+  background-color: #5496bd;
+}
+
+.footer-copyright {
+  text-align:center;
+}
+
+.footer-copyright button: hover,
+.footer-copyright button: focus {
+  color: #bdd7e8;
+  background-color: #f9fbf6;
+}
+
+.footer-copyright button: active {
+  color: #bdd7e8;
+  background-color: #bdbbbc;
+}
+
