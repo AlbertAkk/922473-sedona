@@ -165,6 +165,72 @@ a {
   background-color: #5496bd;
 }
 
+.visually-hidden {
+  font-size: 27px;
+  line-height: 14px;
+  color: #000000;
+  
+}
+.hotel-name {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.hotel-name: hover,
+.hotel-name: focus {
+  font-size: 21px;
+  line-height: 26px;
+  color: #81b3d2;
+}
+.hotel-name: active {
+  font-size: 21px;
+  line-height: 26px;
+  color: #bcbcbc;
+}
+
+
+.buttonp {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+ 
+  background-color: #81b3d2;
+  
+}
+
+.buttonz {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+ 
+  background-color: #766357;
+  
+}
+
+.hotels-rating {
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+  font-weight: 1;
+ 
+  background-color: #f2f2f2;
+}
+
+.kind-of-hotel {
+  font-size: 14px;
+  line-height: 21px;
+  color: #696969;
+  font-weight: 1;
+}
+
+.hotel-price {
+  font-size: 14px;
+  line-height: 21px;
+  color: #696969;
+  font-weight: 1;
+}
+
 
 .main-footer {
   color: #000000;
