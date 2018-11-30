@@ -1,6 +1,6 @@
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
  
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
@@ -10,9 +10,9 @@ body {
   text-transform: uppercase;
  
   background-color: #ffffff;
-  background-image: url("");
-  background-position: top-center;
-  background-repeat:no-repeat;
+  background-image: url("img/background photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
   vertical-align: middle;
   text-transform: uppercase;
   
-  background-color: #766357;
+  background-color: #ffffff;
   border: none;
 }
 
@@ -49,11 +49,11 @@ a {
 
 .navigation-list a:hover,
 .navigation-list a:focus {
-  background-color: #81b3d2;
+ color: #81b3d2;
 }  
 
 .navigation-list a:active {
-  background-color: #b7b7b7;
+  color: #b7b7b7;
 }  
 
 .features-title {
@@ -73,7 +73,7 @@ a {
 .features-description {
   font-size: 14px;
   line-height: 26px;
-  background-color: #ffffff;
+  font-weight: 1;
 }
 
 .search-interested {
@@ -84,7 +84,7 @@ a {
   font-size: 21px;
   line-height: 26px;
   background-color: #ffffff;  
-}  
+}   
 
 .search-point {
   text-align: center;
@@ -93,33 +93,42 @@ a {
 .search-point {
   font-size: 14px;
   line-height: 26px;
-  background-color: #ffffff;  
+  font-weight: 1; 
 }  
 
 .search-hotel {
   text-align: center;
-}
-
-.search-hotel .button {
+  
   font-size: 21px;
   line-height: 26px;
   color: #ffffff;
   background-color: #766357;
 }
 
-.search-hotel .button: hover
-.search-hotel .button: focus {
+.search-hotel.button: {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.search-hotel.button: hover
+.search-hotel.button: focus {
   color: #ffffff;
   background-color: #604e43;
 }
 
-.search-hotel .button: active {
+.search-hotel.button: active {
   color: #ffffff;
   background-color: #503e33;
 }
   
 .search-date-arrive, .search-date-departure, .search-grownups, .search-children {
   text-align: center;
+  
+  font-size: 14px;
+  line-height: 26px;
+  background-color: #ffffff;
 }
 
 .search-date-arrive, .search-date-departure, .search-grownups, .search-children {
@@ -128,8 +137,14 @@ a {
   background-color: #ffffff;
 }
 
+
 .search-item-find {
   text-align: center;
+ 
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #81b3d2;
 }  
 
 .search-item-find .button {
@@ -194,15 +209,18 @@ a {
 
 .footer-copyright {
   text-align:center;
+  
+   background-color: #ffffff;
 }
 
 .footer-copyright button: hover,
 .footer-copyright button: focus {
   color: #bdd7e8;
+  
   background-color: #f9fbf6;
 }
 
 .footer-copyright button: active {
   color: #bdd7e8;
-  background-color: #bdbbbc;
+   background-color: #c8c6c7;
 }
