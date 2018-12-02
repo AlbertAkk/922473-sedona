@@ -121,14 +121,20 @@ a {
 }
 
  input[type="text"] {
+   font-weight: 700;
+    color: #414141;
     background-color: #f2f2f2;
  }
  
  input[type="text"]:hover{
+   font-weight: 700;
+    color: #414141;
     background-color: #ebebeb;
  }
  
   input[type="text"]:focus{
+    font-weight: 700;
+    color: #414141;
     background-color: #ffffff;
  }
   
@@ -349,4 +355,129 @@ a {
 
 .logo-footer:active {
   color: #bdbbbc;
+}
+
+.main-header{
+  margin-bottom:60px;
+ 
+  min-height:285px;
+}
+
+.navigation {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  
+  min-height:285px;
+}
+
+.navigation-list{
+  width:1200px;
+  margin:0px;
+  padding:0px;
+  min-height: 70px;
+}
+
+.main-header-logo{
+  order:1;
+  width: 1200px; 
+  height: 510px;
+}
+
+.features {
+  
+  margin:0px;
+  padding:0px;
+  
+  min-height:55px;
+}
+
+.features-title{
+  display:flex;
+  margin-left:375px;
+  margin-bottom:30px;
+  
+  width: 450px; 
+  height: 60px;
+}
+ 
+.features-description{
+ 
+  margin-left:350px;
+ margin-bottom:55px;
+   
+  width:500px; 
+  height: 25px;
+}
+
+.search {
+  
+  margin:0px;
+  padding:0px;
+  
+  min-height:170px;
+}
+
+.search-interested{
+  display:flex;
+  margin-left:450px;
+  margin-bottom:35px;
+  padding:10px;
+  
+  width:305px; 
+  height: 30px;
+}
+
+.search-point{
+  display:flex;
+  margin-left:380px;
+  margin-bottom:50px;
+  padding:10px;
+  
+  width:440px; 
+  height: 40px;
+}
+
+.search-hotel{
+  display:flex;
+  margin-left:320px;
+  
+  padding:10px;
+  
+  
+  width:570px; 
+  height: 85px;
+}
+
+.search-item{
+  margin-left:320px;
+  padding:10px;
+  
+  width:550px; 
+  height: 50px;
+}
+
+.search-arrive-item{
+
+   width:350px; 
+  height: 40px;
+}
+
+.search-departure-item{
+
+   width:350px; 
+  height: 40px;
+}
+
+
+.search-grownups-item{
+
+   width:115px; 
+  height: 40px;
+}
+
+.search-children-item{
+   
+   width:115px; 
+  height: 40px;
 }
