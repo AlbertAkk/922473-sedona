@@ -105,6 +105,7 @@ a {
   text-transform: uppercase;
   font-size: 21px;
   line-height: 26px;
+  font-weight: 700;
   color: #ffffff;
   background-color: #766357;
 }
@@ -120,23 +121,41 @@ a {
   color: rgba(255,255,255,0.3);
 }
 
- .search-arrive-item, .search-departure-item, .search-grownups-item, .search-children-item {
-    font-weight: 700;
-    color: #414141;
-    background-color: #f2f2f2;
+.search-dates-item {
+  font-weight: 700;
+  color: #414141;
+  background-color: #f2f2f2;
  }
  
-.search-arrive-item, .search-departure-item, .search-grownups-item, .search-children-item: hover {
-    font-weight: 700;
-    color: #414141;
-    background-color: #ebebeb;
+.search-dates-item:hover {
+  font-weight: 700;
+  color: #414141;
+  background-color: #ebebeb;
  }
  
-.search-arrive-item, .search-departure-item, .search-grownups-item, .search-children-item: focus {
-    font-weight: 700;
-    color: #414141;
-    background-color: #ffffff;
+.search-dates-item:focus {
+  font-weight: 700;
+  color: #414141;
+  background-color: #ffffff;
  }
+
+.search-people-item {
+  font-weight: 700;
+  color: #414141;
+  background-color: #f2f2f2;
+ }
+
+.search-people-item:hover {
+  font-weight: 700;
+  color: #414141;
+  background-color: #ebebeb;
+ }
+ 
+.search-people-item:focus {
+  font-weight: 700;
+  color: #414141;
+  background-color: #ffffff;
+}
   
 .search-date-arrive, .search-date-departure, .search-grownups, .search-children {
   text-align: center;
@@ -201,8 +220,8 @@ a {
 }
 
 .search-item-find:active {
-  color: #ffffff;
   background-color: #5496bd;
+  color: rgba(255,255,255,0.3);
 }
 
 .visually-hidden {
@@ -445,7 +464,7 @@ background-color: #766357;
   height: 50px;
 }
 
-.search-arrive-item{
+.search-dates-item{
   margin:0;
   padding:0;
   
@@ -453,28 +472,12 @@ background-color: #766357;
   height: 40px;
 }
 
-.search-departure-item {
+.search-people-item{
   margin:0;
   padding:0;
   
-  width: 350px; 
+  width:115px; 
   height: 40px;
-}
-
-.search-grownups-item{
-   margin:0;
-   padding:0;
-  
-   width:115px; 
-   height: 40px;
-}
-
-.search-children-item{
-   margin:0;
-   padding:0;
-  
-   width:115px; 
-   height: 40px;
 }
 
 .search-item-find{
