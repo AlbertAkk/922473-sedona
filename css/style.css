@@ -128,32 +128,22 @@ a {
  }
  
 .search-dates-item:hover {
-  font-weight: 700;
-  color: #414141;
   background-color: #ebebeb;
  }
  
 .search-dates-item:focus {
-  font-weight: 700;
-  color: #414141;
   background-color: #ffffff;
  }
 
 .search-people-item {
-  font-weight: 700;
-  color: #414141;
   background-color: #f2f2f2;
  }
 
 .search-people-item:hover {
-  font-weight: 700;
-  color: #414141;
   background-color: #ebebeb;
  }
  
 .search-people-item:focus {
-  font-weight: 700;
-  color: #414141;
   background-color: #ffffff;
 }
   
@@ -239,18 +229,18 @@ a {
   list-style: none;
 }
  
-.hotel-name {
+.hotel-name-link {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
 }
 
-.hotel-name:hover,
-.hotel-name:focus {
+.hotel-name-link:hover,
+.hotel-name-link:focus {
   color: #81b3d2;
 }
 
-.hotel-name:active {
+.hotel-name-link:active {
   color: #c7c7c7;
 }
 
