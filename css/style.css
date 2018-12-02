@@ -10,9 +10,9 @@ body {
   text-transform: uppercase;
  
   background-color: #ffffff;
-  background-image: url("img/background-photo.jpg"),url("img/welcome.svg"),url("img/polygon.svg");
-  background-position: 50% 50%,50% 50%,bottom center; 
-  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-image: url("img/logo.svg");
+  background-position: top center; 
+  background-repeat: no-repeat;
 }
 
 a {
@@ -49,7 +49,7 @@ a {
 
 .navigation-list a:hover,
 .navigation-list a:focus {
- color: #81b3d2;
+  color: #81b3d2;
 }  
 
 .navigation-list a:active {
@@ -60,30 +60,28 @@ a {
   color: #918279;
 }
 
-.features-title {
-  text-align: center;
+main-content-logo {  
+  background-color: #ffffff; 
+  background-image: url("img/background-photo.jpg"),url("img/welcome.svg"),url("img/polygon.svg"); 
+  background-position: 50% 50%,50% 50%,bottom center; 
+  background-repeat: no-repeat,no-repeat,no-repeat; 
 }
 
 .features-title {
+  text-align: center;
   font-size: 21px;
   line-height: 26px;
 }
 
 .features-description {
   text-align: center;
-}
-
-.features-description {
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
 }
 
 .search-interested {
-  text-align: center;
-}
-
-.search-interested {
+  text-align: center;  
   font-size: 21px;
   line-height: 26px;
   background-color: #ffffff;  
@@ -91,13 +89,10 @@ a {
 
 .search-point {
   text-align: center;
-}
-
-.search-point {
   font-size: 14px;
   line-height: 26px;
   font-weight: 400; 
-}  
+}
 
 .search-hotel{
   text-align: center;
@@ -207,7 +202,6 @@ a {
 
 .search-item-find:hover,
 .search-item-find:focus {
-  color: #ffffff;
   background-color: #669ec0;
 }
 
@@ -323,8 +317,6 @@ background-color: #766357;
 
 .social {
   text-align: center;
-}
-.social {
   list-style: none;
 }
 
