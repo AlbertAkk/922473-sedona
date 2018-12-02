@@ -204,6 +204,10 @@ a {
   line-height: 14px;
   color: #000000;
   
+.hotels-info-list {
+  list-style: none;
+}
+  
 }
 .hotel-name {
   font-size: 21px;
@@ -316,19 +320,16 @@ a {
 }
 
 .social-button {
-  
   background-color: #81b3d2;
 }
 
 .social-button:hover,
 .social-button:focus {
- background-color: #669ec0;
-  
+ background-color: #669ec0;  
 }
 
 .social-button:active {
- 
-   background-color: #5496bd;
+  background-color: #5496bd;
 }
 
 .footer-copyright{
