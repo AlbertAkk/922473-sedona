@@ -242,46 +242,37 @@ a {
   color: #c7c7c7;
 }
 
-.hotel-more-link {
+.hotel-item-link {
   font-size: 14px;
   line-height: 21px;
   color: #ffffff; 
-  background-color: #81b3d2;
 }
 
-.hotel-more-link:hover,
-.hotel-more-link:focus {
-  font-size: 14px;
-  line-height: 21px;
-  color: #ffffff;
+.hotel-item-link.--light {  
+background-color: #81b3d2;
+}
+
+.hotel-item-link.--light:hover,
+.hotel-item-link.--light:focus {
   background-color: #669ec0;
 }
 
-.hotel-more-link:active {
-  font-size: 14px;
-  line-height: 21px;
+.hotel-item-link.--light:active {
   color: #7aadcb;
   background-color: #5496bd;
 }
 
-.hotel-book-link {
-  font-size: 14px;
-  line-height: 21px;
-  color: #ffffff;
-  background-color: #766357;
+.hotel-item-link.--dark {
+background-color: #766357;
 }
 
-.hotel-book-link:hover,
-.hotel-book-link:focus {
-  font-size: 14px;
-  line-height: 21px;
+.hotel-item-link.--dark:hover,
+.hotel-item-link.--dark:focus {
   color: #ffffff;
   background-color: #604e43;
 }
 
-.hotel-book-link:active {
-  font-size: 14px;
-  line-height: 21px;
+.hotel-item-link.--dark:active {
   color: #857871;
   background-color: #503e33;
 }
