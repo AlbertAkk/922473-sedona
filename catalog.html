@@ -4,16 +4,21 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Седона</title>
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset="cyrillic" rel="stylesheet">
+       <link href="css/normalize.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet"> 
     </head>
     <body>
       <header class="main-header">
        <nav class="navigation">
-         <img src="img/logo.svg" width="140" height="71" alt="Логотип">
-       <ul class="navigation-list">
+        <ul class="navigation-list">
+          <div class="navigation-wrapper">
+            <div class="container">
          <li class="navigation-item"><a class="navigation-link" href="#">Информация</a></li>
          <li class="navigation-item"><a class="navigation-link" href="#">Фото и Видео</a></li>
+             <img class="logo-photo" src="img/logo.svg" width="140" height="71" alt="Логотип">
          <li class="navigation-item"><a class="navigation-link" href="#">Карта штата</a></li>
-         <li class="navigation-item --current"><a class="navigation-link">Гостиницы</a></li>
+         <li class="navigation-item"><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header> 
@@ -26,18 +31,18 @@
     <li class="hotels-info-item">
       <img class="hotels-info-img" src="img/product-pic1.jpg" width="135" height="90" alt="Гостиница AMARA">
       <div>
-        <h2 class="hotel-name">AMARA RESORT & SPA</h2>
+        <h2 class="hotel-name"><a class="hotel-name-link" href="#">AMARA RESORT & SPA</a></h2>
         <p class="kind-of-hotel">Гостиница</p>
         <p class="hotel-price">
          от 4000 Р.
         </p>  
-        <a class="button" href="#"> Подробнее</a>
-        <a class="button" href="#"> Забронировать</a>
+        <a class="hotel-item-link --light" href="#"> Подробнее</a>
+        <a class="hotel-item-link --dark" href="#"> Забронировать</a>
       </div>
       
       <div>
         <img src="" alt="">
-        <p class="hotels-rating"> Рейтинг:8,5></p>
+        <p class="hotels-rating"> Рейтинг:8,5</p>
       </div>  
       
      </li>   
@@ -45,15 +50,13 @@
     <li class="hotels-info-item">
       <img class="hotels-info-img" src="img/product-pic2.jpg" width="135" height="90" alt="Мотель DESERT">
     <div>
-       <h2 class="hotel-name">DESORT QUAIL INN</h2>
+      <h2 class="hotel-name"><a class="hotel-name-link" href="#">DESERT QUAIL INN</a></h2>
        <p class="kind-of-hotel">Мотель</p>
        <p class="hotel-price">
         от 3000 Р.
        </p>  
-       <a class="button" href="#"> Подробнее</a>
-       <a class="button" href="#"> Забронировать</a>
-    </div>
-   
+        <a class="hotel-item-link --light" href="#"> Подробнее</a>
+        <a class="hotel-item-link --dark" href="#"> Забронировать</a>
     <div>  
       <img src="" alt="">
       <p class="hotels-rating"> Рейтинг:8,9</p>
@@ -64,13 +67,13 @@
       <img class="hotels-info-img" src="img/product-pic3.jpg" width="135" height="90" alt="Апартаменты DIABO">
    <div>
     
-       <h2 class="hotel-name">VILLAS AT POCO DIABLO</h2>
+     <h2 class="hotel-name"><a class="hotel-name-link" href="#">VILLAS AT POCO DIABLO</a></h2>
        <p class="kind-of-hotel">Апартаменты</p>
        <p class="hotel-price">
          от 2000 Р.
-       </p>  
-       <a class="button" href="#"> Подробнее</a>
-       <a class="button" href="#"> Забронировать</a>
+       </p> 
+        <a class="hotel-item-link --light" href="#"> Подробнее</a>
+        <a class="hotel-item-link --dark" href="#"> Забронировать</a>
      </div> 
     
      <div>
@@ -79,11 +82,9 @@
      </div>    
    </li>
   
-  
-  
-   
  
-<footer class="main-footer">    
+<footer class="main-footer">  
+ <div class="container">
    <p class="footer-tagline">#VISITSEDONA</p>
     
        <ul class="social">
@@ -91,11 +92,12 @@
           <li class="social-item"><a class="social-button" href="#">Facebook</a></li>
           <li class="social-item"><a class="social-button" href="#">Youtube</a></li>
        </ul> 
-        
+      
      <p class="footer-copyright">
         <b>Website by</b>
-        <a class="button" href="https://htmacademy.ru">HTML Academy</a>
+        <a class="logo-footer" href="https://htmacademy.ru">HTML Academy</a>
      </p>  
+     </div>
      </footer>
         
  </body>

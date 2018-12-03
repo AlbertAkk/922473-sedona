@@ -4,23 +4,28 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Седона</title>
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset="cyrillic" rel="stylesheet">
+       <link href="css/normalize.css" rel="stylesheet">
+       <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
       <header class="main-header">
        <nav class="navigation">
-         <img src="img/logo.svg" width="140" height="71" alt="Логотип">
        <ul class="navigation-list">
+          <div class="navigation-wrapper">
+            <div class="container">
          <li class="navigation-item"><a class="navigation-link" href="#">Информация</a></li>
          <li class="navigation-item"><a class="navigation-link" href="#">Фото и Видео</a></li>
+             <img class="logo-photo" src="img/logo.svg" width="140" height="71" alt="Логотип">
          <li class="navigation-item"><a class="navigation-link" href="#">Карта штата</a></li>
-         <li class="navigation-item"><a class="navigation-link" href="hotels.html">Гостиницы</a></li>
+         <li class="navigation-item"><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
         </ul>
+        </div>
+        </div>
       </nav>
     </header> 
     
-    
   <main class="container">
-    
     <div class="main-content-logo"></div>
     <section class="features">
       <b class="features-title"> Седона-небольшой городок в Аризоне,заслуживающий большего</b>
@@ -31,55 +36,49 @@
     </section>  
   <section class="search"> 
    <div>   
-    <b>Заинтересовались?</b>
-        <p> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-     <button class="search-hotel" type="submit">Поиск гостиницы в Седоне</button>
+    <b class="search-interested">Заинтересовались?</b>
+        <p class="search-point"> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+     <button class="search-hotel" type="button">Поиск гостиницы в Седоне</button>
    </div>  
     
      <form class="search-form" action="" method="post"> 
       
       <p class="search-item">
         <label for="search-date-arrive">Дата заезда:</label>
-        <input class="search-arrive-item" id="search-date-arrive" type="text" name="date" value="" placeholder="24 апреля 2017">
+        <input class="search-dates-item" id="search-date-arrive" type="text" name="date" value="" placeholder="24 апреля 2017">
         <button class="calendar" type="button"> </button>
       </p>
-      <p class="search-item">
+     
+       <p class="search-item">
         <label for="search-date-departure">Дата выезда:</label>
-        <input class="search-departure-item" id="search-date-departure" type="text" name="date" value="" placeholder="4 июля 2017">
-        <button class="calendar" type="button"> 
-         
-        </button>
+        <input class="search-dates-item" id="search-date-departure" type="text" name="date" value="" placeholder="4 июля 2017">
+        <button class="calendar" type="button"> </button>
       </p>
+      <div class="search-item-people">
       <p class="search-item">
         <label for="search-grownups">Взрослые:</label>
-        <input class="search-grownups-item" id="search-grownups" type="text" name="quantity" value="" placeholder="2">
-        <button class="search-item-minus" type="button"> 
-         
-        </button>
-         <button class="search-item-plus" type="button"> 
-        
-        </button>
+        <button class="search-item-minus" type="button"> </button>
+        <input class="search-people-item" id="search-grownups" type="text" name="quantity" value="" placeholder="2">
+        <button class="search-item-plus" type="button"> </button>
        
         <label for="search-children">Дети:</label>
-        <input class="search-children-item" id="search-children" type="text" name="quantity" value="" placeholder="0">
-        <button class="search-item-minus" type="button"> 
-         
-        </button>
-         <button class="search-item-plus" type="button"> 
-         
-        </button>
-        
+        <button class="search-item-minus" type="button"> </button>
+        <input class="search-people-item" id="search-children" type="text" name="quantity" value="" placeholder="0">
+        <button class="search-item-plus" type="button"> </button>
+        </div>
       </p>
       
         <button class="search-item-find" type="submit"> 
          Найти
         </button>
+        
      </form>
     </section>
   </main>
      
    
-<footer class="main-footer">    
+<footer class="main-footer">  
+ <div class="container">
    <p class="footer-tagline">#VISITSEDONA</p>
     
        <ul class="social">
@@ -87,11 +86,12 @@
           <li class="social-item"><a class="social-button" href="#">Facebook</a></li>
           <li class="social-item"><a class="social-button" href="#">Youtube</a></li>
        </ul> 
-        
+      
      <p class="footer-copyright">
         <b>Website by</b>
-        <a class="button" href="https://htmacademy.ru">HTML Academy</a>
+        <a class="logo-footer" href="https://htmacademy.ru">HTML Academy</a>
      </p>  
+     </div>
      </footer>
         
  </body>
