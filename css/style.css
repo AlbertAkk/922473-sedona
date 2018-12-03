@@ -112,9 +112,11 @@ a {
   color: rgba(255,255,255,0.3);
 }
 
-.search-dates-item::placeholder {
+.search-dates-item, .search-dates-item::placeholder, 
+.search-people-item, .search-people-item::placeholder{
   font-weight: 700;
   font-size: 14px;
+  text-transform: uppercase;
   line-height: 26px;
   color: #000000;
 }
@@ -130,13 +132,6 @@ a {
 .search-dates-item:focus {
   background-color: #ffffff;
  }
-
-.search-people-item::placeholder {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 26px;
-  color: #000000;
-}
 
 .search-people-item {
   background-color: #f2f2f2;
