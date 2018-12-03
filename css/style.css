@@ -10,9 +10,6 @@ body {
   text-transform: uppercase;
  
   background-color: #ffffff;
-  background-image: url("img/logo.svg");
-  background-position: top center; 
-  background-repeat: no-repeat;
 }
 
 a {
@@ -60,7 +57,7 @@ a {
   color: #918279;
 }
 
-main-content-logo {  
+.main-content-logo {  
   background-color: #ffffff; 
   background-image: url("img/background-photo.jpg"),url("img/welcome.svg"),url("img/polygon.svg"); 
   background-position: 50% 50%,50% 50%,bottom center; 
@@ -115,11 +112,16 @@ main-content-logo {
   color: rgba(255,255,255,0.3);
 }
 
-.search-dates-item {
+.search-dates-item::placeholder {
   font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
   color: #000000;
+}
+
+.search-dates-item {
   background-color: #f2f2f2;
- }
+}
  
 .search-dates-item:hover {
   background-color: #ebebeb;
@@ -129,12 +131,16 @@ main-content-logo {
   background-color: #ffffff;
  }
 
-.search-people-item {
+.search-people-item::placeholder {
   font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
   color: #000000;
-  background-color: #f2f2f2;
- }
+}
 
+.search-people-item {
+  background-color: #f2f2f2;
+}
 .search-people-item:hover {
   background-color: #ebebeb;
  }
