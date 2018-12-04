@@ -188,17 +188,13 @@ a {
   height: 50px;
 }
 
-.search-dates-item,
-.search-dates-item::placeholder {
+.search-dates-item, .search-dates-item::placeholder,
+.search-people-item, .search-people-item::placeholder {
   font-weight: 700;
   font-size: 14px;
+  text-transform: uppercase;
   line-height: 26px;
   color: #000000;
-
-  margin:0;
-  padding:0;
-  width:350px; 
-  height: 40px;
 }
 
 .search-dates-item {
@@ -211,19 +207,6 @@ a {
  
 .search-dates-item:focus {
   background-color: #ffffff;
- }
-
- .search-people-item,
- .search-people-item::placeholder {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 26px;
-  color: #000000;
-
-  margin:0;
-  padding:0;
-  width:115px; 
-  height: 40px;
  }
 
  .search-people-item {
@@ -320,7 +303,13 @@ a {
   padding: 0;
   border: 0;
 }
-  
+
+.hotels-info-item{
+  display:flex;
+  text-align: center;
+  justify-content:space-between;
+}
+    
 .hotels-info-list {
   list-style: none;
 }
@@ -470,3 +459,5 @@ background-color: #766357;
 .logo-footer:active {
   color: #bdbbbc;
 }
+
+
