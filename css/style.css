@@ -23,14 +23,13 @@ a {
   color: #000000;
   vertical-align: middle;
   text-transform: uppercase;
-
+  flex-direction: column;
   background-color: #ffffff;
   border: none;
 }
 
 .main-header{
   margin-bottom:60px;
-  min-height:285px;
 }
 
 .header-background-photo{
@@ -44,24 +43,19 @@ a {
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
-
-  display:flex;
-  flex-direction:column;
   align-items:center;
+  display:flex;
+  width:1060px;
+  margin-left:70px;
   
-  min-height:285px;
-}
-
-.navigation-wrapper .container{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding:0 30px;
+  padding:0 50px;
 }
 
 .navigation-list {
+  display:flex;
   list-style:none;
-  width:1200px;
+  justify-content:space-between;
+  width:1060px;
   margin:0px;
   padding:0px;
 } 
@@ -91,19 +85,19 @@ a {
 }
 
 .features {
-  margin:0px;
-  padding:0px;
+  margin:0;
+  padding:0;
 }
 
 .features-title {
   text-align: center;
   font-size: 21px;
   line-height: 26px;
-
-  display:flex;
-  margin-left:375px;
-  margin-bottom:30px;
+  display:block;
   
+  margin-bottom:30px;
+  margin-left: 380px;
+  margin-right: auto;
   width: 450px; 
   height: 60px;
 }
@@ -114,15 +108,16 @@ a {
   line-height: 26px;
   font-weight: 400;
 
-  margin-left:350px;
   margin-bottom:55px; 
+  margin-left: 355px;
+  margin-right: auto;
   width:500px; 
   height: 25px;
 }
 
 .search {
-  margin:0px;
-  padding:0px;
+  margin:auto;
+  padding:auto;
 }
 
 .search-interested {
@@ -304,10 +299,23 @@ a {
   border: 0;
 }
 
+.hotels-info{
+  width:1060px;
+}
+
+.hotel-description{
+  padding:30px;
+  margin:0px;
+}
+
+.hotels-info-img{
+  margin-top:60px;
+}
+
 .hotels-info-item{
   display:flex;
   text-align: center;
-  justify-content:space-between;
+  margin-left:70px;
 }
     
 .hotels-info-list {
@@ -371,6 +379,11 @@ background-color: #766357;
   background-color: #f2f2f2;
 }
 
+.hotel-rating-info{
+  margin-top: 50px;
+  margin-left: auto;
+}
+
 .kind-of-hotel {
   font-size: 14px;
   line-height: 21px;
@@ -387,19 +400,19 @@ background-color: #766357;
 
 .main-footer {
   color: #000000;
-  
+  width: 1060px;
   background-color: #f9fbf6;
   background-image: img(" ");
   background-position: 0 0;
   background-repeat: repeat;
-
+  margin-left: 130px;
   padding: 40px;
   margin-top:170px;
 }
 
 .main-footer .container{
   display: flex;
-  width:1200px;
+  width: 1060px;
 }
 
 .footer-tagline {
@@ -419,9 +432,8 @@ background-color: #766357;
   list-style: none;
 
   width: 160px;
-  margin:0;
-  margin-right: 230px;
-  min-height:100px;
+  margin: 0;
+  margin-right: 260px;
 }
 
 .social-button {
@@ -437,13 +449,12 @@ background-color: #766357;
   background-color: #5496bd;
 }
 
-.footer-copyright{
-  text-align:center;
+.footer-copyright-move{
   color:#000000;
 
   width: 210px;
   margin:0;
-  min-height:100px;
+  margin-right: 160px;
 }
 
 .logo-footer {
