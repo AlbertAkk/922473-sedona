@@ -31,6 +31,7 @@ a {
 .body-content{
   width: 1200px;
   margin: auto;
+  vertical-align: center;
 }
 
 .main-header{
@@ -101,10 +102,8 @@ a {
   display:block;
   
   margin-bottom:30px;
-  margin-left: 380px;
   margin-right: auto;
   width: 450px; 
-  height: 60px;
 }
 
 .features-description {
@@ -114,10 +113,8 @@ a {
   font-weight: 400;
 
   margin-bottom:55px; 
-  margin-left: 355px;
   margin-right: auto;
   width:500px; 
-  height: 25px;
 }
 
 .search {
@@ -132,11 +129,9 @@ a {
   background-color: #ffffff; 
   
   display:flex;
-  margin-left:450px;
   margin-bottom:35px;
   padding:0 50px;
   width:305px; 
-  height: 30px;
 }   
 
 .search-point {
@@ -146,11 +141,9 @@ a {
   font-weight: 400; 
 
   display:flex;
-  margin-left:380px;
   margin-bottom:50px;
   padding:10px;
-  width:440px; 
-  height: 40px;
+  width:440px;
 }
 
 .search-hotel{
@@ -181,11 +174,8 @@ a {
 }
 
 .search-item{
-  margin-left:370px;
-  padding:0 10px;
-   
+  padding:0 10px; 
   width:550px; 
-  height: 50px;
 }
 
 .search-dates-item, .search-dates-item::placeholder,
@@ -277,10 +267,9 @@ a {
   color: #ffffff;
   background-color: #81b3d2;
 
-  margin-left:370px;
+  
   padding:10px;
   width:460px; 
-  height: 65px;
 }  
 
 .search-item-find:hover,
@@ -320,7 +309,7 @@ a {
 .hotels-info-item{
   display:flex;
   text-align: center;
-  margin-left:70px;
+  padding:0 70px;
 }
     
 .hotels-info-list {
@@ -405,12 +394,12 @@ background-color: #766357;
 
 .main-footer {
   color: #000000;
-  width: 1060px;
+  
   background-color: #f9fbf6;
   background-image: img(" ");
   background-position: 0 0;
   background-repeat: repeat;
-  margin-left: 130px;
+  
   padding: 40px;
   margin-top:170px;
 }
@@ -475,5 +464,3 @@ background-color: #766357;
 .logo-footer:active {
   color: #bdbbbc;
 }
-
-
