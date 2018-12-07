@@ -28,6 +28,11 @@ a {
   border: none;
 }
 
+.body-content{
+  width: 1200px;
+  margin: auto;
+}
+
 .main-header{
   margin-bottom:60px;
 }
