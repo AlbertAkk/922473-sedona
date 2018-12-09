@@ -54,6 +54,14 @@ a {
   padding: 22px 72px;
 } 
 
+.navigation-item-photo{
+  margin-right: 70px;
+} 
+
+.navigation-item-map{
+  margin-left: 130px;
+} 
+
 .navigation-list a {
   color: #000000;
 }  
