@@ -80,8 +80,10 @@ a {
 }
 
 .main-content-logo {  
+  width: 1200px;
+  height: 800px;
   background-color: #ffffff; 
-  background-image: url("img/background-photo.jpg"), url("img/welcome.svg"),url("img/polygon.svg"); 
+  background-image:  url("../img/background-photo.jpg"), url("../img/welcome.svg"), url("../img/polygon.svg"); 
   background-position: 50% 50%,50% 50%,bottom center; 
   background-repeat: no-repeat,no-repeat,no-repeat; 
 }
