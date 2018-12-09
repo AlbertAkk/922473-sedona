@@ -42,9 +42,7 @@ a {
   align-items:center;
   display:flex;
   width:1060px;
-  margin-left:70px;
-  margin-top:22px; 
-  margin-bottom:22px;
+ 
 }
 
 .navigation-list {
@@ -53,7 +51,7 @@ a {
   justify-content:space-between;
   width:1060px;
   margin:0px;
-  padding:0px;
+  padding: 22px 72px;
 } 
 
 .navigation-list a {
@@ -82,6 +80,9 @@ a {
 
 .logo-photo{
   position: absolute;
+  top: 0px;
+  left: 710px;
+  z-index: 2;
 }
 
 .background-photo{
@@ -93,7 +94,7 @@ a {
   position: absolute;
   z-index: 2;
   top: 132px;
-  right: 511px;
+  right: 520px;
  }
 
 .polygon{
@@ -478,9 +479,11 @@ background-color: #766357;
 .logo-footer:hover,
 .logo-footer:focus {
   color: #81b3d2;
+ 
 }
 
 .logo-footer:active {
   color: #bdbbbc;
 }
+
 
