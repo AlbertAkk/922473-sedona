@@ -43,27 +43,36 @@ a {
   
   display:flex;
   width:1200px;
-  position: static;
-  z-index: 2;
-  padding: 22px 72px;
+ 
+ 
+  
 }
 
 .navigation-list {
   display:flex;
   list-style:none;
-  justify-content:space-between;
+  
   width:1200px;
-  margin:0px;
+  
  
 } 
 
-.navigation-item--left{
-  text-align: left;
+.navigation-item{
+  text-align:center;
+  width:239px;
+  height:-56px;
 }
 
-.navigation-item--right{
-  text-align: right;
+.navigation-item:nth-child(2){
+  margin-right: 0px 70px;
+ 
 }
+
+.navigation-item:nth-child(3){
+  margin-left: 0px 70px;
+
+}
+
 
 .navigation-list a {
   color: #000000;
@@ -81,13 +90,23 @@ a {
 .navigation-item-current a{
   color: #918279;
 }
+
+.navigation-item--left {
+  text-align: left;
+  padding-right: 40px;
+}
+
+.navigation-item--right {
+  text-align: right;
+  padding-left: 40px;
+}
 .main-content-logo {  
     
   width: 1200px;
   height: 800px;
   background-color: #ffffff; 
   background-image: url("../img/welcome.svg"), url("../img/polygon.svg"), url("../img/background-photo.jpg"); 
-  background-position: 50% 132px, bottom center, 50% -58px; 
+  background-position: 50% 80px, 50% 454px, 50% -58px; 
   background-repeat: no-repeat,no-repeat,no-repeat; 
   background-size: 459px 353px, 1201px 59px, 1200px 800px;
 }
@@ -95,13 +114,18 @@ a {
 .logo-photo{
   position: absolute;
   top: 0px;
-  left: 710px;
+  left: 690px;
   z-index: 2;
 }
 
 .features {
   margin:0;
   padding:0;
+  position: absolute;
+  z-index: 2;
+  top: 625px;
+  left: 380px;
+  right: 380px;
 }
 
 .features-title {
@@ -109,11 +133,14 @@ a {
   font-size: 21px;
   line-height: 26px;
   display:block;
-
+  
   margin-left: auto;
   margin-bottom:30px;
   margin-right: auto;
-  width: 450px; 
+  width:440px; 
+  height: 48px;
+  white-space: normal;
+ 
 }
 
 .features-description {
@@ -125,7 +152,8 @@ a {
   margin-left: auto;
   margin-bottom:55px; 
   margin-right: auto;
-  width:500px; 
+  width:489px; 
+  height: 13px; 
 }
 
 .search {
@@ -163,6 +191,7 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
+  
 }
 
 .search-hotel{
@@ -177,9 +206,9 @@ a {
   display: flex;
   margin-left: 316px;
   white-space: nowrap;
-  padding: 35px 140px;
-
-  
+  padding:  140px;  
+  padding-top: 35px;
+  padding-bottom: 33px;
 }
 
 .search-hotel:hover,
@@ -194,8 +223,9 @@ a {
 }
 
 .search-item{
-  padding:0 10px; 
-  width:550px; 
+  padding: 0px 10px; 
+  width: 568px; 
+  
 }
 
 .search-dates-item, .search-dates-item::placeholder,
@@ -205,7 +235,9 @@ a {
   text-transform: uppercase;
   line-height: 26px;
   color: #000000;
+  
 }
+
 
 .search-dates-item {
   background-color: #f2f2f2;
@@ -286,10 +318,13 @@ a {
   font-weight: 700;
   color: #ffffff;
   background-color: #81b3d2;
-
+  width: 458px;
+  height: 60px;
   display: flex;
-  margin-left: 55px;
-  padding: 20px 195px; 
+  padding: 196px; 
+  padding-top: 17px; 
+  padding-bottom: 22px; 
+  
 }  
 
 
@@ -480,5 +515,4 @@ background-color: #766357;
 .logo-footer:active {
   color: #bdbbbc;
 }
-
 
