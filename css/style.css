@@ -37,30 +37,33 @@ a {
 .navigation {
   font-size: 14px;
   line-height: 26px;
+  font-weight: 700;
   color: #000000;
   background-color: #ffffff;
-  align-items:center;
+  
   display:flex;
-  width:1060px;
- 
+  width:1200px;
+  position: static;
+  z-index: 2;
+  padding: 22px 72px;
 }
 
 .navigation-list {
   display:flex;
   list-style:none;
   justify-content:space-between;
-  width:1060px;
+  width:1200px;
   margin:0px;
-  padding: 22px 72px;
+ 
 } 
 
-.navigation-item-photo{
-  margin-right: 70px;
-} 
+.navigation-item--left{
+  text-align: left;
+}
 
-.navigation-item-map{
-  margin-left: 130px;
-} 
+.navigation-item--right{
+  text-align: right;
+}
 
 .navigation-list a {
   color: #000000;
@@ -78,14 +81,15 @@ a {
 .navigation-item-current a{
   color: #918279;
 }
-
 .main-content-logo {  
+    
   width: 1200px;
   height: 800px;
   background-color: #ffffff; 
-  background-image:  url("../img/background-photo.jpg"), url("../img/welcome.svg"), url("../img/polygon.svg"); 
-  background-position: 50% 50%,50% 50%,bottom center; 
+  background-image: url("../img/welcome.svg"), url("../img/polygon.svg"), url("../img/background-photo.jpg"); 
+  background-position: 50% 132px, bottom center, 50% -58px; 
   background-repeat: no-repeat,no-repeat,no-repeat; 
+  background-size: 459px 353px, 1201px 59px, 1200px 800px;
 }
 
 .logo-photo{
@@ -93,25 +97,6 @@ a {
   top: 0px;
   left: 710px;
   z-index: 2;
-}
-
-.background-photo{
-  position: relative;
-  z-index: 1;
-}
-
-.welcome{
-  position: absolute;
-  z-index: 2;
-  top: 132px;
-  right: 520px;
- }
-
-.polygon{
-  position: absolute;
-  z-index: 2;
-  bottom: 208px;
-  right: 160px;
 }
 
 .features {
