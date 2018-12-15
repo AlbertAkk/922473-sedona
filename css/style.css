@@ -67,7 +67,11 @@ a {
 .navigation-item:nth-child(3){
   margin-left: 56px;
   text-align: right;
+}
 
+.navigation-item:nth-child(4){
+  margin-left: 0px;
+  text-align: right;
 }
 
 .navigation-list a {
@@ -90,7 +94,7 @@ a {
 .main-content-logo {  
     
   width: 1200px;
-  height: 800px;
+  height: 511px;
   background-color: #ffffff; 
   background-image: url("../img/welcome.svg"), url("../img/polygon.svg"), url("../img/background-photo.jpg"); 
   background-position: 50% 80px, 50% 454px, 50% -58px; 
@@ -146,6 +150,7 @@ a {
 .search {
   margin:auto;
   padding:auto;
+  margin-top: 1935px;
 }
 
 .search-interested {
