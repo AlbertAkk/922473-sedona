@@ -185,7 +185,8 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  
+  padding: 55px;
+  margin-left: 55px;
 }
 
 .search-hotel{
@@ -229,12 +230,38 @@ a {
   text-transform: uppercase;
   line-height: 26px;
   color: #000000;
-  
+  box-shadow: inset 0 0 0 10px #f2f2f2;
 }
 
 
-.search-dates-item {
+.search-dates-item{
   background-color: #f2f2f2;
+  width: 346px;
+  height: 38px;
+}
+
+input#search-date-arrive.search-dates-item{
+  margin-left: 21px;
+}
+
+input#search-date-departure.search-dates-item{
+  margin-left: 17px;
+}
+
+button.search-item-minus{
+  margin-left: 54px;
+}
+
+button.search-item-minus2{
+  margin-left: 27px;
+}
+
+button.search-item-plus{
+  margin-right: 53px;
+}
+
+.search-date-departure{
+  margin-left: 17px;
 }
  
 .search-dates-item:hover {
@@ -247,6 +274,8 @@ a {
 
  .search-people-item {
   background-color: #f2f2f2;
+  width: 38px;
+  height: 38px;
 }
 
 .search-people-item:hover {
@@ -264,6 +293,10 @@ a {
   line-height: 26px;
   background-color: #ffffff;
 }
+ 
+.search-grownups{
+  margin-left: 41px;
+}
 
 .calendar{
   background-color: #cacaca;
@@ -279,7 +312,9 @@ a {
 }
 
 .search-item-minus{
-   background-color: #a9a9a9;
+  background-color: #a9a9a9;
+  box-shadow: 0px -4.5px 0 18.5px #f2f2f2;
+ 
 }
 
 .search-item-minus:hover,
@@ -291,8 +326,25 @@ a {
   background-color: #81b3d2;
 }
 
+.search-item-minus2{
+  background-color: #a9a9a9;
+  box-shadow: 0px -4.5px 0 18.5px #f2f2f2;
+  
+}
+
+.search-item-minus2:hover,
+.search-item-minus2:focus {
+ background-color: #000000;
+}
+
+.search-item-minus2:active {
+ background-color: #81b3d2;
+}
+
 .search-item-plus{
-   background-color: #a9a9a9;
+  background-color: #a9a9a9;
+  box-shadow: 10px -4.5px 0 18.5px #f2f2f2;
+ 
 }
 
 .search-item-plus:hover,
@@ -481,9 +533,10 @@ background-color: #766357;
 }
 
 .main-footer {
+  
   color: #000000;
   text-align: center;
-  background-color: #f9fbf6;
+  background-color: #ffffff;
   padding: 51px 132px;
 }
 
@@ -537,6 +590,22 @@ background-color: #766357;
   margin:0;
 }
 
+.footer-copyright{
+  background-image: url("../img/icon-academy.svg");
+  background-position: 50% 100%;
+}
+
+.footer-copyright:hover,
+.footer-copyright:focus {
+  background-image: url("../img/icon-academy-hover.svg");
+  background-position: 50% 100%;
+}
+
+.footer-copyright:active{
+  background-image:  url("../img/icon-academy-pushed.svg");
+  background-position: 50% 100%;
+}
+
 .logo-footer {
   color: #000000;
 }
@@ -549,4 +618,5 @@ background-color: #766357;
 
 .logo-footer:active {
   color: #bdbbbc;
+ 
 }
