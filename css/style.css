@@ -288,6 +288,7 @@ button.search-item-plus{
 }
 
 .search-item-minus{
+  content: "";
   position: absolute;
   width:12px;
   height:3px;
@@ -297,12 +298,16 @@ button.search-item-plus{
 .search-item-plus::before{
   content: "";
   position: absolute;
+   width:12px;
+  height:3px;
   background: #f2f2f2;
 }
 
 .search-item-plus::after{
   content: "";
   position: absolute;
+  width:12px;
+  height:3px;
   transform: rotate(90deg);
   background: #f2f2f2;
 }
