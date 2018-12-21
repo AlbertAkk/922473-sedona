@@ -284,17 +284,27 @@ button.search-item-plus{
  position: relative; 
  width:12px;
  height:3px;
+ background: #f2f2f2;
+}
+
+.search-item-minus{
+  position: absolute;
+  width:12px;
+  height:3px;
+  background: #f2f2f2;
 }
 
 .search-item-plus::before{
   content: "";
   position: absolute;
+  background: #f2f2f2;
 }
 
 .search-item-plus::after{
   content: "";
   position: absolute;
   transform: rotate(90deg);
+  background: #f2f2f2;
 }
 
 .search-people-item:hover {
