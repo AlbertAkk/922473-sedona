@@ -237,52 +237,56 @@ a {
 .search-dates-item{
 
   background-color: #f2f2f2;
-  width: 346px;
+  width: 333px;
   height: 38px;
   border:0;
 }
 
 .calendar{
   position:relative;
-  background-color: #cacaca;
+  background-color: #f2f2f2;
   border:0;
   width:21px;
   height:22px;
+  right: 35px;
+  top: 4px;
 }
 
 .calendar::after{
   content:"";
 
   position:absolute;
-  top:0px;
-  right:0px;
+  top: 0;
+  right: 0;
   width:21px;
   height:22px;
   
-  background-image: url("img/calendar.svg");
+  background-image: url("../img/calendar.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .calendar:hover::after,
 .calendar:focus::after{
-  background-image:url("img/calendar-hover.svg");
+  background-image:url("../img/calendar-hover.svg");
   background-repeat: no-repeat;
   background-position:0 0;
 }
 
 .calendar:active::after{
-  background-image:url("img/calendar-pushed.svg");
+  background-image:url("../img/calendar-pushed.svg");
   background-repeat: no-repeat;
   background-position:0 0;
 }
 
 input#search-date-arrive.search-dates-item{
   margin-left: 21px;
+  padding-left: 13px;
 }
 
 input#search-date-departure.search-dates-item{
   margin-left: 17px;
+  padding-left: 13px;
 }
 
 button.search-item-minus{
@@ -681,18 +685,24 @@ background-color: #766357;
   justify-content: space-between;
   width: 46px;
   height: 48px;
-}
-
-.social-button {
+  background-image: url("../img/twitter.svg"), url("../img/facebook.svg"), url("../img/youtube.svg");
+  background-position: 50% 50%, 50% 50%, 50% 50%;
+  background-repeat: no-repeat;
   background-color: #81b3d2;
 }
 
-.social-button:hover,
-.social-button:focus {
+.social-item {
+  background-color: #81b3d2;
+ 
+
+}
+
+.social-item:hover,
+.social-item:focus {
  background-color: #669ec0;  
 }
 
-.social-button:active {
+.social-item:active {
   background-color: #5496bd;
 }
 
