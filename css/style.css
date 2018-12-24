@@ -149,6 +149,10 @@ a {
   height: 20px; 
 }
 
+.features-split{
+  margin:0;
+}
+
 .search {
   margin:auto;
   padding:auto;
