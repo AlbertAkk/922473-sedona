@@ -130,10 +130,10 @@ a {
   margin-left: auto;
   margin-bottom:30px;
   margin-right: auto;
-  width:440px; 
+  width: 425px;
   height: 48px;
   white-space: normal;
- 
+  word-break: break-all;
 }
 
 .features-description {
@@ -147,10 +147,6 @@ a {
   margin-right: auto;
   width:489px; 
   height: 20px; 
-}
-
-.features-split{
-  margin:0;
 }
 
 .search {
