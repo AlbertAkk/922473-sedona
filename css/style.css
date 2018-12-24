@@ -8,10 +8,7 @@ body {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
-  
-  box-shadow: insert  5px 0 5px 5px #34495e;
- 
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 a {
@@ -33,7 +30,9 @@ a {
 .body-content{
   width: 1200px;
   margin: auto;
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.1);
   vertical-align: center;
+  background-color: #ffffff;
 }
 
 .navigation {
@@ -107,8 +106,10 @@ a {
 .logo-photo{
   position: absolute;
   top: 0px;
-  left: 690px;
+  left: 45.5%;
   z-index: 2;
+  width: 141px;
+  height: 71px;
 }
 
 .features {
@@ -185,7 +186,8 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  
+  padding: 55px;
+  margin-left: 55px;
 }
 
 .search-hotel{
@@ -219,7 +221,8 @@ a {
 .search-item{
   padding: 0px 10px; 
   width: 568px; 
-  
+  align-items:center;
+  display: flex;
 }
 
 .search-dates-item, .search-dates-item::placeholder,
@@ -229,12 +232,88 @@ a {
   text-transform: uppercase;
   line-height: 26px;
   color: #000000;
-  
+  border:0;
 }
 
 
-.search-dates-item {
+.search-dates-item{
+
   background-color: #f2f2f2;
+  width: 333px;
+  height: 38px;
+  border:0;
+}
+
+.calendar{
+  position:relative;
+  background-color: #f2f2f2;
+  border:0;
+  width:21px;
+  height:22px;
+  right: 35px;
+  top: 4px;
+}
+
+.calendar::after{
+  content:"";
+
+  position:absolute;
+  top: -4px;
+  right: 0;
+  width:21px;
+  height:22px;
+  
+  background-image: url("../img/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.calendar:hover::after,
+.calendar:focus::after{
+  background-image:url("../img/calendar-hover.svg");
+  background-repeat: no-repeat;
+  background-position:0 0;
+}
+
+.calendar:active::after{
+  background-image:url("../img/calendar-pushed.svg");
+  background-repeat: no-repeat;
+  background-position:0 0;
+}
+
+input#search-date-arrive.search-dates-item{
+  margin-left: 21px;
+  padding-left: 13px;
+}
+
+input#search-date-departure.search-dates-item{
+  margin-left: 17px;
+  padding-left: 13px;
+}
+
+button.search-item-minus{
+  margin-left: 38px;
+  padding: 0;
+  border: 0;
+  margin-right: -3px;
+}
+
+button.search-item-minus2{
+  margin-left: 27px;
+  padding: 0;
+  border: 0;
+  margin-right: -3px;
+}
+
+button.search-item-plus{
+  margin-right: 64px;
+  padding: 0;
+  border: 0;
+  margin-left: -3px;
+}
+
+.search-date-departure{
+  margin-left: 17px;
 }
  
 .search-dates-item:hover {
@@ -243,10 +322,112 @@ a {
  
 .search-dates-item:focus {
   background-color: #ffffff;
- }
+  border: 2px solid #f2f2f2;
+}
 
- .search-people-item {
+.search-people-item {
   background-color: #f2f2f2;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  border:0;
+  padding:0px;
+}
+
+.search-item-minus,
+.search-item-minus2,
+.search-item-plus{
+ position: relative; 
+ width:38px;
+ height:38px;
+ background: #f2f2f2;
+ top:0px;
+}
+
+.search-item-minus{
+  
+  
+  width:38px;
+  height:38px;
+  
+  
+}
+
+.search-item-minus::before{
+  content: "";
+  position: absolute;
+  margin-left: -6px;
+  top: 17px;
+  width:12px;
+  height:3px;
+  background: #a9a9a9;
+}
+
+.search-item-minus2::before{
+  content: "";
+  position: absolute;
+  margin-left: -6px;
+  top: 17px;
+  width:12px;
+  height:3px;
+  background: #a9a9a9;
+}
+
+.search-item-plus::before{
+  content: "";
+  position: absolute;
+  margin-left: -6.5px;
+  top: 16px;
+  width:12px;
+  height:3px;
+  background: #a9a9a9;
+}
+
+.search-item-plus::after{
+  content: "";
+  position: absolute;
+  left: 17px;
+  top: 12px;
+  height:12px;
+  width:3px;
+  transform: rotate(0deg);
+  background: #a9a9a9;
+}
+
+.search-item-minus:hover::before,
+.search-item-minus:focus::before {
+  background-color: #000000;
+}
+
+.search-item-minus:active::before {
+  background-color: #81b3d2;
+}
+
+.search-item-minus2:hover::before,
+.search-item-minus2:focus::before {
+  background-color: #000000;
+}
+
+.search-item-minus2:active::before {
+  background-color: #81b3d2;
+}
+
+.search-item-plus:hover::before,
+.search-item-plus:focus::before {
+  background-color: #000000;
+}
+
+.search-item-plus:active::before {
+  background-color: #81b3d2;
+}
+
+.search-item-plus:hover::after,
+.search-item-plus:focus::after {
+  background-color: #000000;
+}
+
+.search-item-plus:active::after {
+  background-color: #81b3d2;
 }
 
 .search-people-item:hover {
@@ -263,45 +444,11 @@ a {
   font-size: 14px;
   line-height: 26px;
   background-color: #ffffff;
+  border:0px;
 }
-
-.calendar{
-  background-color: #cacaca;
-}
-
-.calendar:hover,
-.calendar:focus {
-  background-color: #000000;
-}
-
-.calendar:active {
-  background-color: #81b3d2;
-}
-
-.search-item-minus{
-   background-color: #a9a9a9;
-}
-
-.search-item-minus:hover,
-.search-item-minus:focus {
-  background-color: #000000;
-}
-
-.search-item-minus:active {
-  background-color: #81b3d2;
-}
-
-.search-item-plus{
-   background-color: #a9a9a9;
-}
-
-.search-item-plus:hover,
-.search-item-plus:focus {
-  background-color: #000000;
-}
-
-.search-item-plus:active {
-  background-color: #81b3d2;
+ 
+.search-grownups{
+  margin-left: 41px;
 }
 
 .search-item-find {
@@ -318,9 +465,8 @@ a {
   padding: 196px; 
   padding-top: 17px; 
   padding-bottom: 22px; 
-  
+  border:0;
 }  
-
 
 .search-item-find:hover,
 .search-item-find:focus {
@@ -449,12 +595,35 @@ background-color: #766357;
  color: rgba(255,255,255,0.3);
 }
 
+.star{
+  background-image: url("../img/star.svg");
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  width:18px;
+  height:17px;
+}
+
+.star-wrapper1{
+  margin-left: 0px;
+}
+
+.star-wrapper2{
+  margin-left: 24px;
+}
+
+.star-wrapper3{
+  margin-left: 46px;
+}
+
 .hotels-rating {
   font-size: 14px;
   line-height: 21px;
   color: #828282;
   font-weight: 400;
   background-color: #f2f2f2;
+  margin-top: 40px;
+  padding: 3px;
 }
 
 .hotel-rating-info{
@@ -481,15 +650,16 @@ background-color: #766357;
 }
 
 .main-footer {
+  
   color: #000000;
   text-align: center;
-  background-color: #f9fbf6;
+  background-color: #ffffff;
   padding: 51px 132px;
 }
 
 .main-footer .container{
   display: flex;
-  align-items: baseline;  
+
   width: 967px;
 }
 
@@ -497,10 +667,8 @@ background-color: #766357;
   text-align: center;
   font-size: 21px; 
   line-height: 26px;
-  background-color: #f9fbf6;
-
-
   margin:0;
+  margin-top: 10px;
 }
 
 .social {
@@ -514,21 +682,60 @@ background-color: #766357;
 }
 
 .social-item{
-  justify-content: space-between;
   width: 46px;
   height: 48px;
+  margin-right: 5px;
 }
 
-.social-button {
+.social-twitter .social-button{
+  background-image: url("../img/twitter.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 15px;
+  display: flex;
+  margin-left: 16px;
+  margin-top: 15px;
+}
+
+.social-facebook .social-button{
+  background-image: url("../img/facebook.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 22px;
+  display: flex;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.social-youtube .social-button{
+  background-image: url("../img/youtube.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 16px;
+  display: flex;
+  margin-left: 14px;
+  margin-top: 15px;
+}
+
+.social-twitter:active .social-button,
+.social-facebook:active .social-button,
+.social-youtube:active .social-button{ 
+  opacity: 0.3; 
+}
+
+.social-item {
   background-color: #81b3d2;
 }
 
-.social-button:hover,
-.social-button:focus {
+.social-item:hover,
+.social-item:focus {
  background-color: #669ec0;  
 }
 
-.social-button:active {
+.social-item:active {
   background-color: #5496bd;
 }
 
@@ -537,16 +744,30 @@ background-color: #766357;
   margin:0;
 }
 
+.footer-name{
+  margin-left: -224px;
+}
+
 .logo-footer {
   color: #000000;
+  background-image: url("../img/icon-academy.svg");
+  background-position: 50% 100%;
+  width: 115px;
+  height: 41px;
+  display: block;
+  margin-top: -37px;
 }
 
 .logo-footer:hover,
 .logo-footer:focus {
   color: #81b3d2;
- 
+  background-image: url("../img/icon-academy-hover.svg");
+  background-position: 50% 100%;
 }
 
 .logo-footer:active {
   color: #bdbbbc;
+  background-image:  url("../img/icon-academy-pushed.svg");
+  background-position: 50% 100%;
 }
+
